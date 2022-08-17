@@ -1,16 +1,6 @@
-customer = {
-    "_id":          123,
-    "created":      datetime.now(),
-    "is_active":    True,
-    "fullname":     "Ram Kumar",
-    "age":          32,
-    "contact": {
-        "phone":      "068-000-1111",
-        "email":      "ramkr@example.com",
-        "skype":      "ramkr123"
-    },
-    "cards": [
-        {"type": "visa", "expires": "12/2029"},
-        {"type": "visa"},
-    ]
+{
+  "_id":          "ObjectId",
+  "created":      "date",
+  "is_active":    "bool",
+  "fullname":     "string"
 }
